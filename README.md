@@ -1,2 +1,2 @@
 # rkpaging
-jQuery paging form HTML tables
+jQuery paging for HTML tables
