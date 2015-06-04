@@ -1,0 +1,32 @@
+﻿************************
+* Paging jQuery Plugin *
+************************
+The methods included in Paging.js are used to enable paging controls on an form and for any html table.
+
+Make sure your table exists and has been populated with rows before attempting to create paging controls.
+make sure the table has a parent div container with a unique id.
+
+There are two main methods you can utilise.
+1 .CreatePager(id, table, parentid, appendEnd)
+2.  EnablePageControls(forTable, recordsPerPage)
+
+if you need the pager to be at the top of the table appendEnd should be false. To add it after the table appendEnd should be true.
+
+If you want paging at the top and the bottom just call CreatePager twice. Be sure to use unique id's.
+
+Regardless of the number of times CreatePager is called, you only need to call EnablePageControls once.
+
+CreatePager will return true once complete. 
+
+Example usage
+
+//var topDone = CreatePager('top-pager', 'GridView1', 'table-container', false);
+//var bottomDone = CreatePager('bottom-pager', 'GridView1', 'table-container', true);
+//
+//if (topDone === true && bottomDone === true) {
+//    EnablePageControls('GridView1', recsPerPage);
+//}
+
+By: Russell Kain
+Email: russellkain@gmail.com
+

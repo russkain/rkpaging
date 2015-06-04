@@ -1,0 +1,48 @@
+body {
+font-family:Arial, Tahoma, Times;
+font-size:10pt;
+}
+
+#header {
+font-weight:bold;
+font-size:14pt;
+}
+
+table {
+  border-collapse: collapse;
+  display: table;
+  border-spacing: 2px;
+  border-color: grey;
+  font-size: 10pt;
+  font-family: Arial, Verdana, sans-serif;
+  width:700px;
+}
+
+th:hover {
+  cursor: pointer;
+}
+
+th {
+  background-color: #e8090e;
+  border-color: #A3ABB0;
+  height: 25px;
+  text-align: left;
+  padding-left: 5px;
+  max-height: 25px;
+  color: white;
+}
+
+td {
+  display: table-cell;
+  vertical-align: inherit;
+  height: 25px;
+  max-height: 25px;
+  padding-left: 5px;
+  overflow: hidden;
+  }
+
+tr:hover {
+  cursor: pointer;
+  background-color: #fdc1c2;
+  color: black;
+}
